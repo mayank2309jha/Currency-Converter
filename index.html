@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <title>Currency Converter</title>
+</head>
+
+<body>
+  <div class="app">
+    <div class="header">
+      <h1>Currency Converter</h1>
+      <p style="font-size: 25px; margin-bottom: 5px">Enter Amount</p>
+      <input type="text" class="amount_input" value="100" placeholder="100"
+        style="height: 30px; width: 200px; font-size: 20px; margin-bottom: 30px; outline: none">
+    </div>
+
+    <div class="input-fields">
+      <span>
+        <p style="font-size: 25px; margin-bottom: 10px">From</p>
+        <div class="select-from">
+          <img class="flag-image" src="https://flagsapi.com/US/flat/32.png">
+          <select type="text" style="font-size: 20px; transform: translateY(-2px)">
+            <!-- <option value="USD">USD</option> -->
+          </select>
+        </div>
+      </span>
+      <span><img class="arrow-image" src="arrows.png"></span>
+      <span>
+        <p style="font-size: 25px; margin-bottom: 10px">To</p>
+        <div class="select-to">
+          <img class="flag-image" src="https://flagsapi.com/IN/flat/32.png">
+          <select type="text" style="font-size: 20px; transform: translateY(-2px)">
+            <!-- <option value="INR">INR</option> -->
+          </select>
+        </div>
+      </span>
+    </div>
+    <p class="final_message" style="font-size: 25px;">Amount in Target Currency...</p>
+    <span class="button-box"><button>Get Exchange Rate</button></span>
+
+  </div>
+
+  <script scr="codes.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>

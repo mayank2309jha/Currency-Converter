@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFDD0;
+}
+.app{
+  background-color: white;
+  border: 1px solid black;
+  width: 500px;
+  padding: 20px;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+.header{
+}
+.input-fields{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.arrow-image{
+  height: 40px;
+  transform: translateY(65px);
+}
+.button-box{
+  display: flex;
+  justify-content: center;
+}
+button{
+  background-color: #DE3163;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+}
+.flag-image{
+  transform: translateY(5px);
+}
+select{
+  border: none;
+  height: 30px;
+  width: 100px;
+  transform: translateY(-10px);
+  outline: none;
+}
+.select-from, .select-to{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  height: 40px;
+  padding-top: 0;
+}
